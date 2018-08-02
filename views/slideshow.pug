@@ -1,0 +1,21 @@
+extends layout.pug
+
+block styles
+  link(rel='stylesheet', href='/css/style.css')
+    
+block scripts
+  script(type='text/javascript', src='/js/slideshow.js')    
+  
+block content
+  #slideshow
+    #preview
+      a#play(href='#') &#9654;
+      a#stop(href='#') &#9632;
+      a#prev(href='#') &larr;
+      a#next(href='#') &rarr;
+      a#open(href='#selector') &#9638;
+    #selector
+      ul#images
+        for image in images
+          li
+            img(src='/img/' + image)  

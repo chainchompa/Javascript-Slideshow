@@ -1,0 +1,18 @@
+{
+  "name": "Javascript-Slideshow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3",
+    "pug": "^2.0.3",
+    "serve-static": "^1.13.2"
+  }
+}
